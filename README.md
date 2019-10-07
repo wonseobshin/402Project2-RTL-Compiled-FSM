@@ -23,9 +23,15 @@ When simulated on ModelSim, we get the following waves.
 
 ![New Wave2](https://github.com/wonseobshin/402Project2-RTL-Compiled-FSM/blob/master/wave2.JPG)
 
+*Second image is an extension of the first*
+
 When compared to the previously generated (non-mapped) simulation with the same design, we can see that the waves are identical.
 
 ![Old Wave](https://github.com/wonseobshin/402Project2-RTL-Compiled-FSM/blob/master/non-mapped-wave.JPG)
+
+*Wave is zoomed out to show all results within one picture*
+
+*The result is identical to the mapped version*
 
 Cell Count
 -------------
@@ -34,6 +40,8 @@ The RTL compiler generates reports in the [output_files folder](https://github.c
 
 ![Power Report](https://github.com/wonseobshin/402Project2-RTL-Compiled-FSM/blob/master/cell-count.JPG)
 
+*As reported, the design has 110 cells*
+
 Changes made post-project 1
 ----
 Some changes were made to increase the number of cells used in the design to follow the requirements set by the project description.
@@ -41,7 +49,8 @@ Some changes were made to increase the number of cells used in the design to fol
     - Added the funtionality to make (output) an error sound
     - Display accurate and descriptive error on screen by adding states
     - Removed unecessary latches
-    *But no major changes were made*
+### ***But no major changes were made***
+
 
 Challenges
 ------
